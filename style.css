@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f6fc;
+    color: #444;
+    line-height: 1.7;
+}
+
+header {
+    background: linear-gradient(135deg, #77739e, #aaa5c9);
+    color: white;
+    padding: 35px 25px;
+    border-radius: 0 0 18px 18px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+header p {
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #eee6ff;
+}
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 22px;
+    border-radius: 12px;
+    border: 1px solid #e7e3f1;
+    box-shadow: 0 3px 10px rgba(80, 70, 110, 0.08);
+}
+
+.card h2 {
+    color: #77739e;
+    margin-bottom: 18px;
+    border: none;
+    text-decoration: none;
+}
+
+.card ul {
+    list-style: disc;
+    margin-left: 15px;
+    padding-left: 20px;
+    border-left: 5px solid #9992c2;
+}
+
+.card li {
+    padding: 5px 0;
+}
+
+.about-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.about-text {
+    flex: 1;
+    border-left: none;
+    padding-left: 0;
+}
+.profile {
+    text-align: center;
+    min-width: 180px;
+}
+
+.profile img {
+    width: 160px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid #aaa5c9;
+}
+
+.profile h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #77739e;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
+
+.card h2 {
+    border-bottom: none !important;
+}
+
+.about-text {
+    border-left: 5px solid #9992c2;
+    padding-left: 20px;
+}
+
+.card ul {
+    border-left: 5px solid #9992c2;
+    padding-left: 25px;
+}
+@media (max-width: 650px) {
+    .about-card {
+        flex-direction: column;
+    }
+
+    nav {
+        gap: 12px;
+    }
+}
+body {
+    background-color: #eeeaf7;
+    color: #333333;
+}
+
+header {
+    background: linear-gradient(135deg, #40305f, #66518f);
+}
+
+.card {
+    background-color: #ffffff;
+    color: #333333;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(50, 30, 80, 0.12);
+}
+
+.card h2 {
+    color: #49376e;
+}
+
+footer {
+    background-color: #40305f;
+    color: white;
+}
+.personal-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+ img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid #49376e;
+    box-shadow: 0 4px 12px rgba(50, 30, 80, 0.15);
+}
+#business .personal-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+#business .skills-image img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid #49376e;
+    box-shadow: 0 4px 12px rgba(50, 30, 80, 0.15);
+}
+#creative .personal-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+#creative .skills-image img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid #49376e;
+    box-shadow: 0 4px 12px rgba(50, 30, 80, 0.15);
+}
+#technical .personal-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+#technical .skills-image img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid #49376e;
+    box-shadow: 0 4px 12px rgba(50, 30, 80, 0.15);
+}
+.contact a {
+    display: block;
+    color: #555577;
+    text-decoration: none;
+    margin: 12px 0;
+    transition: 0.3s;
+}
+
+.contact a:hover {
+    color: #a020f0;
+    transform: translateX(8px);
+    cursor: pointer;
+}
+header {
+    position: relative;
+}
+
+.profile-logo {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    text-align: center;
+}
+
+.profile-logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #c4a7ff;
+}
+
+.profile-logo p {
+    color: white;
+    font-size: 18px;
+    margin-top: 3px;
+    font-weight: bold;
+}
